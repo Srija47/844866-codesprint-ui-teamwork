@@ -107,13 +107,13 @@ function myFunction(){
     //        document.myForm.zip.focus();
     //        return false;
     //    }
-    //var pat1 = /^\d{6}$;
-    //var pin_code = document.getElementById("zip");
-    //if (!pat1.test(pin_code.value)) {
-    //    alert("Pin code should be 6 digits ");
-    //    pin_code.focus();
-    //    return false;
-    //}
+    var pat1 = ^\d{6}$;
+    var pin_code = document.getElementById("zip");
+    if (!pat1.test(pin_code.value)) {
+        alert("Pin code should be 6 digits ");
+        pin_code.focus();
+        return false;
+    }
 
     if (document.myForm.country.value == "-1") {
         alert("please provide your country");
